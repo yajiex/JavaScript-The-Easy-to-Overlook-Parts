@@ -15,10 +15,10 @@
      - It optionally defines private instance variables and methods
      - It augments that new object with methods
      - It returns that new object
-     
-     Here is a pseudocode template:   
+   
+   Here is a pseudocode template:   
          
-         var constructor = function (spec, my) {
+          var constructor = function (spec, my) {
              var that, other private instance variables;
              my = my || {};
              Add shared variables and functions to my
